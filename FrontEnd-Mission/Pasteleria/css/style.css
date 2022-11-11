@@ -1,0 +1,185 @@
+/* #efebec */
+
+body {
+  font-family: Georgia, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  color: black;
+}
+
+h1 {
+  font-size: 56px;
+  text-align: center;
+}
+
+.logo {
+  max-width: 100px;
+  max-height: auto;
+}
+
+.socials img {
+  max-width: 26px;
+  max-height: auto;
+}
+
+header,
+footer {
+  background-color: #efebec;
+  display: flex;
+  flex: 1;
+  flex-shrink: 1;
+}
+
+header {
+  padding: 8px;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: center;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 22px;
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+}
+
+a {
+  text-decoration: none;
+  color: #494949;
+  -webkit-transition: color 2s;
+  transition: color 0.4s;
+}
+
+a:hover {
+  color: #bb68c0;
+}
+
+.body,
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 5px;
+}
+
+.socials {
+  display: flex;
+  gap: 20px;
+}
+
+.body.sucursales {
+  text-align: center;
+  margin-bottom: 21px;
+}
+
+.sucursales.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+}
+
+.pastel img {
+  width: 350px;
+  height: auto;
+}
+
+.topping img {
+  width: 300px;
+  height: auto;
+}
+
+.pasteles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 46px;
+  flex-wrap: wrap;
+}
+
+.pastel .text {
+  width: 350px;
+  color: #494949b9;
+  text-align: justify;
+}
+
+.toppings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 46px;
+  flex-wrap: wrap;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-color: #494949;
+}
+
+input[type="text"] {
+  width: 300px;
+  border-color: #beb5b7;
+  border-style: solid;
+  border-radius: 6px;
+}
+
+button[type="submit"] {
+  background-color: #bb68c0;
+  border-color: #bb68c0;
+  border-style: solid;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+}
+
+.submit {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: white;
+  color: #bb68c0;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.inventory {
+  width: 900px;
+}
+
+.inventory-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-content {
+  text-align: center;
+}
